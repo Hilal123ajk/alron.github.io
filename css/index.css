@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-image: url("public/images/cone-icecream.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin: 2rem 7rem;
+}
+
+.flex{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 3.7rem;
+    color: rgb(6, 1, 22);
+    margin: 1rem 0;
+}
+
+h1,th,td,a{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+/* table  */
+
+#products {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #products td, #products th {
+    padding: 8px;
+  }
+  
+  
+  #products tr {background-color: rgb(189, 186, 186);}
+  
+  #products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #078d5c;
+    color: rgb(0, 0, 0);
+  }
+
+  input{
+    padding: .7rem .9rem;
+    outline: none;
+  }
+
+  .generate-slip{
+    margin: 2rem 0;
+  }
+
+  button{
+    padding: .8rem 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .3rem;
+    background-color: #0a3cc9f7;
+    color: white;
+  }
+
+
+  /* generate-button */
+
+  #generate-button{
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    margin: 1rem 0;
+    border: none;
+    cursor: pointer;
+    border-radius: .4rem;
+    background-color: darkgoldenrod;
+  }
